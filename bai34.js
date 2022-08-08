@@ -1,0 +1,10 @@
+input_r=prompt('nhập r');
+let r=parseInt(input_r);
+const PI=3.14;
+let P=2*PI*r;
+let S=r*r*PI;
+document.write('r ='+r);
+document.write('<br/>');
+document.write('P ='+P);
+document.write('<br/>');
+document.write('S ='+S);

@@ -1,0 +1,17 @@
+inputly= prompt('nhập điểm ly');
+inputhoa= prompt('nhập điểm hóa');
+inputsinh= prompt('nhập điểm sinh');
+let ly= parseInt(inputly);
+let hoa= parseInt(inputhoa);
+let sinh= parseInt(inputsinh);
+let sum= ly+hoa+sinh;
+let avg=sum/3;
+document.write('ly:' +ly);
+document.write('<br/>');
+document.write('hoa:' +hoa);
+document.write('<br/>');
+document.write('sinh:' +sinh);
+document.write('<br/>');
+document.write('sum:' +sum);
+document.write('<br/>');
+document.write('avg:'+avg);
